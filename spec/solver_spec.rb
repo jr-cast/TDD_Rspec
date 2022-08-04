@@ -5,6 +5,8 @@ describe Solver do
     it 'can output factorial values' do
       solver = Solver.new
       expect(solver.factorial(5)).to eq(120)
+      expect(solver.factorial(-5)).to eq('Please enter only positive values')
+      expect(solver.factorial(0)).to eq(1)
     end
 
     it 'reverses a string with the reverse method' do
