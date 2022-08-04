@@ -5,7 +5,7 @@ describe Solver do
     
     it "can output factorial values" do
       solver = Solver.new
-      expect(solver.factorial(5)).to eq(125)
+      expect(solver.factorial(5)).to eq(120)
     end
 
   end
