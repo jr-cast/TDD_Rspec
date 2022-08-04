@@ -8,4 +8,7 @@ class Solver
     end
     fact
   end
+
+  def reverse 
+  end
 end
