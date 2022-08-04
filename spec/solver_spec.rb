@@ -9,6 +9,7 @@ describe Solver do
     end
 
     it 'Reverses a string with the reverse method' do
+      solver = Solver.new
       expect(solver.reverse('hello')).to eq('olleh')
       expect(solver.reverse('microverse')).to eq('esrevorcim')
     end

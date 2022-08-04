@@ -9,6 +9,7 @@ class Solver
     fact
   end
 
-  def reverse 
+  def reverse(word)
+    word.reverse
   end
 end
