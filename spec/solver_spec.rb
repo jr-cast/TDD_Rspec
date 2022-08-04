@@ -1,9 +1,8 @@
-require "solver"
+require 'solver'
 
 describe Solver do
-  context "To instantiate Solver object and tests its methods" do
-    
-    it "can output factorial values" do
+  context 'To instantiate Solver object and tests its methods' do
+    it 'can output factorial values' do
       solver = Solver.new
       expect(solver.factorial(5)).to eq(120)
     end
@@ -21,4 +20,5 @@ describe Solver do
       expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
       expect(solver.fizzbuzz(7)).to eq('7')
     end
-    
+  end
+end
